@@ -274,7 +274,7 @@ body.lock {
   transform: translate(7px, -50%);
   width: 8px;
   height: 8px;
-  background: url("../../img/icons/icons.svg#breadcrumbs") center/contain no-repeat;
+  background: url("../img/icons/icons.svg#breadcrumbs") center/contain no-repeat;
 }
 
 .breadcrumbs__item:not(a) {
