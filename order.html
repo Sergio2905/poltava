@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20250731134836" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20250731134836"
+    <link rel="stylesheet" href="css/style.min.css?_v=20250802173929" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js?_v=20250802173929"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>СК Полтава</title>
@@ -254,12 +254,19 @@
                                 <a href="#" class="menu__link">Акредитація ЗМІ</a>
                             </li>
                         </ul>
+                        <div class="header__btns">
+                            <a href="#" type="button" class="header__btn btn_yellow">Магазин</a>
+                            <a href="#" type="button" class="header__btn btn_pink">Квитки!</a>
+                        </div>
                     </nav>
                 </div>
                 <div class="header__btns">
                     <a href="#" type="button" class="header__btn btn_yellow">Магазин</a>
                     <a href="#" type="button" class="header__btn btn_pink">Квитки!</a>
                 </div>
+                <button class="header__menu-icon">
+                    <span></span>
+                </button>
             </div>
         </div>
     </div>
@@ -356,70 +363,265 @@
                             сайт СК «Полтава»
                         </p>
                     </div>
-                    <div class="footer__socials">
-                        <a href="#" class="footer__social" target="_blank">
-                            <span>
-                                <svg>
-                                    <use href="img/icons/icons.svg#instagram"></use>
-                                </svg>
-                            </span>
-                            Instagram
-                        </a>
-                        <a href="#" class="footer__social" target="_blank">
-                            <span>
-                                <svg>
-                                    <use href="img/icons/icons.svg#facebook"></use>
-                                </svg>
-                            </span>
-                            Facebook
-                        </a>
-                        <a href="#" class="footer__social" target="_blank">
-                            <span>
-                                <svg>
-                                    <use href="img/icons/icons.svg#youtube"></use>
-                                </svg>
-                            </span>
-                            Youtube
-                        </a>
-                        <a href="#" class="footer__social" target="_blank">
-                            <span>
-                                <svg>
-                                    <use href="img/icons/icons.svg#telegram"></use>
-                                </svg>
-                            </span>
-                            Telegram
-                        </a>
+                    <div class="footer__menu menu-footer">
+                        <nav class="menu-footer__body">
+                            <ul class="menu-footer__list">
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Новини</a>
+                                    <button type="button" class="menu-footer__btn" title="Show submenu">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="menu-footer__submenu">
+                                        <ul class="menu-footer__sublist">
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    Головна команди
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    U-19
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    ДЮСШ СК Полтава
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Клуб</a>
+                                    <button type="button" class="menu-footer__btn" title="Show submenu">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="menu-footer__submenu">
+                                        <ul class="menu-footer__sublist">
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    Головна команди
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    U-19
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    ДЮСШ СК Полтава
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Команда</a>
+                                    <button type="button" class="menu-footer__btn" title="Show submenu">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="menu-footer__submenu">
+                                        <ul class="menu-footer__sublist">
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    Головна команди
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    U-19
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    ДЮСШ СК Полтава
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Сезон</a>
+                                    <button type="button" class="menu-footer__btn" title="Show submenu">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="menu-footer__submenu">
+                                        <ul class="menu-footer__sublist">
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    Головна команди
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    U-19
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    ДЮСШ СК Полтава
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Результати</a>
+                                    <button type="button" class="menu-footer__btn" title="Show submenu">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="menu-footer__submenu">
+                                        <ul class="menu-footer__sublist">
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    Головна команди
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    U-19
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    ДЮСШ СК Полтава
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Медіа</a>
+                                    <button type="button" class="menu-footer__btn" title="Show submenu">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="menu-footer__submenu">
+                                        <ul class="menu-footer__sublist">
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    Головна команди
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    U-19
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    ДЮСШ СК Полтава
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">ДЮСШ СК Полтава</a>
+                                    <button type="button" class="menu-footer__btn" title="Show submenu">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="menu-footer__submenu">
+                                        <ul class="menu-footer__sublist">
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    Головна команди
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    U-19
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    ДЮСШ СК Полтава
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="menu-footer__item">
+                                    <a href="#" class="menu-footer__link">Акредитація ЗМІ</a>
+                                </li>
+                                <li class="menu-footer__item menu-footer__item_mob">
+                                    <a href="#" class="menu-footer__link">Для користувача</a>
+                                    <button type="button" class="menu-footer__btn" title="Show submenu">
+                                        <svg>
+                                            <use href="img/icons/icons.svg#arrow"></use>
+                                        </svg>
+                                    </button>
+                                    <div class="menu-footer__submenu">
+                                        <ul class="menu-footer__sublist">
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    Головна команди
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    U-19
+                                                </a>
+                                            </li>
+                                            <li class="menu-footer__subitem">
+                                                <a href="#" class="menu-footer__sublink">
+                                                    ДЮСШ СК Полтава ДЮСШ СК Полтава
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
-                <div class="footer__menu menu-footer">
-                    <nav class="menu-footer__body">
-                        <ul class="menu-footer__list">
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Новини</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Клуб</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Команда</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Сезон</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Результати</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Медіа</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">ДЮСШ СК Полтава</a>
-                            </li>
-                            <li class="menu-footer__item">
-                                <a href="#" class="menu-footer__link">Акредитація ЗМІ</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <div class="footer__socials">
+                    <a href="#" class="footer__social" target="_blank">
+                        <span>
+                            <svg>
+                                <use href="img/icons/icons.svg#instagram"></use>
+                            </svg>
+                        </span>
+                        Instagram
+                    </a>
+                    <a href="#" class="footer__social" target="_blank">
+                        <span>
+                            <svg>
+                                <use href="img/icons/icons.svg#facebook"></use>
+                            </svg>
+                        </span>
+                        Facebook
+                    </a>
+                    <a href="#" class="footer__social" target="_blank">
+                        <span>
+                            <svg>
+                                <use href="img/icons/icons.svg#youtube"></use>
+                            </svg>
+                        </span>
+                        Youtube
+                    </a>
+                    <a href="#" class="footer__social" target="_blank">
+                        <span>
+                            <svg>
+                                <use href="img/icons/icons.svg#telegram"></use>
+                            </svg>
+                        </span>
+                        Telegram
+                    </a>
                 </div>
             </div>
         </div>
@@ -442,7 +644,7 @@
 </footer>
     </div>
 
-    <script src="js/app.min.js?_v=20250731134836"></script>
+    <script src="js/app.min.js?_v=20250802173929"></script>
 </body>
 
 </html>
